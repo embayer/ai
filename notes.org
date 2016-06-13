@@ -1,0 +1,39 @@
+* terminologie
+
+** supervised learning
+
+making predictions about the future
+
+*** classification for predicting class labels
+
+learning from labeled training data in order to make prediction about unseen/future data.
+
+- spam or ham
+
+*** predicting continuous outcomes / regression analysis
+
+by a given number of predictor variables (explanatory)
+and a  continuous response variable (outcome)
+we try to find a relationship betweeen those variables
+that allows us to predict the outcome.
+
+- predict degrees by time spent learning
+
+** reinforced learning
+
+solving interactive problems. An agent operates on an environment
+which typically also includes a feedback (reward signal). The agent
+tries to maximize the reward via trial and error or deliberative planning
+(The carrot and stick method).
+
+- chess engine
+
+** unsupervised learning
+
+discovering hidden structures
+Useful if no test data is readily available, and if it is possible to
+derive some kind of cost function from the desired behavior. The cost
+function tells the neural network how much it is off the target.
+The network then can adjust its parameters on the fly while working on the real data.
+
+- dinner party problem
